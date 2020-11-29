@@ -28,6 +28,18 @@ const updateStudent = (student) => {
   return exec(sql)
 }
 
+//移除用户信息
+const deleteStudent = (sid) => {
+  let sql = `delete from student where sid=${sid}`
+  console.log(sql)
+  return exec(sql)
+}
+const deleteStudentOrder = (sid) => {
+  let sql = `delete from order where sid=${sid}`
+  console.log(sql)
+  return exec(sql)
+}
+
 module.exports={
   getStudents,
   getStudentBySid,
@@ -35,4 +47,7 @@ module.exports={
   addStudent,
 
   updateStudent,
+
+  deleteStudent,
+  deleteStudentOrder
 };

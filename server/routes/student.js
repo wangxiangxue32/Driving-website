@@ -49,4 +49,17 @@ router.post('/update_student', function (req, res) {
   })
 })
 
+//移除学生信息
+router.get('/delete_student', function (req, res) {
+  let sid = req.query.sid
+  console.log(sid)
+  studentController.deleteStudent(sid).then(res => {
+    if (data.length!==0) {
+      return res.json(new SuccessModel(data,"ok"));
+    }
+    res.json(new ErrorModel("err"));
+  })
+  studentController.deleteStudentOrder(sid).then(res => {})
+})
+
 module.exports = router;

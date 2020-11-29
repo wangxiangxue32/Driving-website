@@ -47,6 +47,20 @@ router.get('/get_driving_coach_by_did', function (req, res) {
   })
 })
 
+//根据did、cid和lid获取驾校的教练信息和驾照类型信息
+router.get('/get_coach_by_dcl', function (req, res) {
+  let did =req.query.did
+  let cid =req.query.cid
+  let lid =req.query.lid
+  console.log(did,cid,lid)
+  drivingController.getDrivingCoachByDCL(did,cid,lid).then(data => {
+    if (data.length!==0) {
+      return res.json(new SuccessModel(data,"ok"));
+    }
+    res.json(new ErrorModel("err"));
+  })
+})
+
 //添加/注册驾校
 router.post('/add_driving', function (req, res) {
   let driving = req.body
@@ -69,6 +83,47 @@ router.post('/update_driving_info', function (req, res) {
     }
     res.json(new ErrorModel("err"));
   })
+})
+
+//根据关键词搜索驾校
+router.get('/select_driving', function (req, res) {
+  let keyword = req.query.keyword
+  console.log(keyword)
+  drivingController.selectDriving(keyword).then(data => {
+    if (data.length!==0) {
+      return res.json(new SuccessModel(data,"ok"));
+    }
+    res.json(new ErrorModel("err"));
+  })
+})
+
+//移除教练
+router.get('/delete_coach', function (req, res) {
+  let cid = req.query.cid
+  console.log(cid)
+  drivingController.deleteCoach(cid).then(data => {
+    if (data.length!==0) {
+      return res.json(new SuccessModel(data,"ok"));
+    }
+    res.json(new ErrorModel("err"));
+  })
+  drivingController.deleteCoachLicense(cid).then(data => {})
+  drivingController.deleteCoachOrder(cid).then(data => {})
+})
+
+//移除驾校
+router.get('/delete_driving', function (req, res) {
+  let did = req.query.did
+  console.log(did)
+  drivingController.deleteDriving(did).then(data => {
+    if (data.length!==0) {
+      return res.json(new SuccessModel(data,"ok"));
+    }
+    res.json(new ErrorModel("err"));
+  })
+  drivingController.deleteDrivingCoach(did).then(res => {})
+  drivingController.deleteDrivingLicense(did).then(res => {})
+  drivingController.deleteDrivingOrder(did).then(res => {})
 })
 
 module.exports = router;
