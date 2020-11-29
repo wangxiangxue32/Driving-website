@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5999ff38-b15f-48c2-9164-cfc2c092f8e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/Driving-school-registration-website" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/favicon.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/components/navbar/NavBar.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/components/tabbar/TabBar.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/network/admin.js" afterDir="false" />
@@ -32,7 +34,6 @@
       <change afterPath="$PROJECT_DIR$/web/src/views/student/childComps/StudentInfo.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web" beforeDir="false" afterPath="$PROJECT_DIR$/web" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
@@ -108,21 +109,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606623554722</updated>
-      <workItem from="1606623556109" duration="715000" />
+      <workItem from="1606623556109" duration="1355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="715000" />
+    <option name="totallyTimeSpent" value="1355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="578" y="18" width="740" height="832" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22443181" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22443181" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
