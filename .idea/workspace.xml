@@ -33,6 +33,9 @@
       <change afterPath="$PROJECT_DIR$/web/src/views/login/StudentLogin.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/views/logon/DrivingLogon.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/views/logon/StudentLogon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/password/AdminChange.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/password/DrivingChange.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/password/StudentChange.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/views/student/StudentHome.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/views/student/childComps/AlreadyPostDriving.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/views/student/childComps/StudentInfo.vue" afterDir="false" />
@@ -68,7 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,6 +82,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,14 +118,15 @@
       <workItem from="1606625122459" duration="598000" />
       <workItem from="1606657592373" duration="2000" />
       <workItem from="1606657675356" duration="120000" />
+      <workItem from="1606708895028" duration="267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2167000" />
+    <option name="totallyTimeSpent" value="2434000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="714" y="0" width="740" height="832" extended-state="0" />
+    <frame x="713" y="0" width="740" height="832" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22443181" />
