@@ -37,13 +37,6 @@
       <change afterPath="$PROJECT_DIR$/web/src/views/student/childComps/AlreadyPostDriving.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/views/student/childComps/StudentInfo.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controller/drivingController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/drivingController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controller/studentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/studentController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/driving.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/driving.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/student.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/student.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web" beforeDir="false" afterPath="$PROJECT_DIR$/web" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
@@ -65,7 +58,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="893" />
+    <option name="x" value="891" />
     <option name="width" value="925" />
     <option name="height" value="1040" />
   </component>
@@ -121,14 +114,15 @@
       <workItem from="1606623556109" duration="1447000" />
       <workItem from="1606625122459" duration="598000" />
       <workItem from="1606657592373" duration="2000" />
+      <workItem from="1606657675356" duration="120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2047000" />
+    <option name="totallyTimeSpent" value="2167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="715" y="0" width="740" height="832" extended-state="0" />
+    <frame x="714" y="0" width="740" height="832" extended-state="0" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22443181" />

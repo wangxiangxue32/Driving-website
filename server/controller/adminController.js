@@ -6,6 +6,14 @@ const getAdmin = () => {
   return exec(sql)
 }
 
+//修改密码
+const updatePwd = (admin) => {
+  let sql = `update admin set apassword='${admin.n_apassword}' where aaccount='${admin.aaccount}'`
+  console.log(sql)
+  return exec(sql)
+}
+
 module.exports={
-  getAdmin
+  getAdmin,
+  updatePwd
 };

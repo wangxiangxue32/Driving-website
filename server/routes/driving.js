@@ -126,4 +126,16 @@ router.get('/delete_driving', function (req, res) {
   drivingController.deleteDrivingOrder(did).then(res => {})
 })
 
+//修改密码
+router.post('/update_pwd', function (req, res) {
+  let driving = req.body
+  console.log(driving)
+  drivingController.updatePwd(driving).then(data => {
+    if (data.length!==0) {
+      return res.json(new SuccessModel(data,"ok"));
+    }
+    res.json(new ErrorModel("err"));
+  })
+})
+
 module.exports = router;

@@ -40,6 +40,14 @@ const deleteStudentOrder = (sid) => {
   return exec(sql)
 }
 
+
+//修改密码
+const updatePwd = (student) => {
+  let sql = `update student set spassword='${student.n_spassword}' where saccount='${student.saccount}'`
+  console.log(sql)
+  return exec(sql)
+}
+
 module.exports={
   getStudents,
   getStudentBySid,
@@ -49,5 +57,7 @@ module.exports={
   updateStudent,
 
   deleteStudent,
-  deleteStudentOrder
+  deleteStudentOrder,
+
+  updatePwd
 };

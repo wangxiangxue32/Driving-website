@@ -62,4 +62,16 @@ router.get('/delete_student', function (req, res) {
   studentController.deleteStudentOrder(sid).then(res => {})
 })
 
+//修改密码
+router.post('/update_pwd', function (req, res) {
+  let student = req.body
+  console.log(student)
+  studentController.updatePwd(student).then(data => {
+    if (data.length!==0) {
+      return res.json(new SuccessModel(data,"ok"));
+    }
+    res.json(new ErrorModel("err"));
+  })
+})
+
 module.exports = router;

@@ -95,6 +95,13 @@ const deleteDrivingCoach = (did) => {
   return exec(sql)
 }
 
+//修改密码
+const updatePwd = (driving) => {
+  let sql = `update driving set dpassword='${driving.n_dpassword}' where daccount='${driving.daccount}'`
+  console.log(sql)
+  return exec(sql)
+}
+
 module.exports={
   getDriving,
   getDrivingLicense,
@@ -105,6 +112,7 @@ module.exports={
   addDriving,
 
   updateDriving,
+  updatePwd,
 
   selectDriving,
 
